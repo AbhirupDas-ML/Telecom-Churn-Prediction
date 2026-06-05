@@ -15,6 +15,7 @@ By catching these customers before they cancel, the business can proactively off
 Because the cost of losing a customer is much higher than the cost of a retention discount, this model was optimized strictly for **Recall**. 
 * **Recall:** 85% (The model successfully identified 317 out of 374 actual churners).
 * **Precision:** 63% (The model accepts a slightly higher false-positive rate to cast a wider net and save as many customers as possible).
+
 ![alt text](image-3.png)
 
 ## Business Recommendations
