@@ -16,7 +16,7 @@ Because the cost of losing a customer is much higher than the cost of a retentio
 * **Recall:** 85% (The model successfully identified 317 out of 374 actual churners).
 * **Precision:** 63% (The model accepts a slightly higher false-positive rate to cast a wider net and save as many customers as possible).
 
-![alt text](<Confusion Matrix.png>)
+![alt text](<assets/Confusion Matrix.png>)
 
 ## Business Recommendations
 Based on the XGBoost Feature Importance analysis and Exploratory Data Analysis, I recommend the following three immediate business actions:
@@ -25,7 +25,7 @@ Based on the XGBoost Feature Importance analysis and Exploratory Data Analysis, 
 2. **The Fiber Optic Problem:** Fiber Optic internet is the second-highest driver of churn, indicating severe product dissatisfaction. **Action:** Pause aggressive upselling of Fiber Optic and initiate an engineering audit to check for local network outages or speed throttling. 
 3. **The Credit Card Friction:** Customers paying via Credit Card are churning at unexpectedly high rates. **Action:** Investigate the billing gateway for failed auto-payments/expired cards, and incentivize customers to switch to direct bank transfers.
 
-![alt text](feature_importances.png)
+![alt text](assets/feature_importances.png)
 
 ## Visualizing the Problem
-![alt text](<EDA Dashboard.png>)
+![alt text](<assets/EDA Dashboard.png>)
